@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MLookUp</string>
+    <string name="splash_screen_content_description">Splash Screen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="search_textview">Search For a Movie</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="btSearch_text">Search</string>
+    <string name="etSearchHint">Search For a Movie</string>
 </resources>
