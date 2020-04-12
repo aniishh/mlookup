@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MLookUp</string>
+    <string name="app_name">MLookup</string>
     <string name="splash_screen_content_description">Splash Screen</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
