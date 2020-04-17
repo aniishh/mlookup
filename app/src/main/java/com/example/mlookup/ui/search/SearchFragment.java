@@ -10,25 +10,19 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.example.mlookup.R;
 
 public class SearchFragment extends Fragment {
 
-    private SearchViewModel searchViewModel;
-    private Button btSearch;
-    private TextView tvSearch;
-    private ScrollView searchResults;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        searchViewModel =
-                ViewModelProviders.of(this).get(SearchViewModel.class);
+        SearchViewModel searchViewModel = new ViewModelProvider(this).get(SearchViewModel.class);
         View root = inflater.inflate(R.layout.fragment_search, container, false);
-        btSearch = root.findViewById(R.id.btSearch);
-        tvSearch = root.findViewById(R.id.etSearch);
-        searchResults = root.findViewById(R.id.searchResults);
+        Button btSearch = root.findViewById(R.id.btSearch);
+        TextView tvSearch = root.findViewById(R.id.etSearch);
+        ScrollView searchResults = root.findViewById(R.id.searchResults);
 
         btSearch.setOnClickListener(new View.OnClickListener() {
             @Override
