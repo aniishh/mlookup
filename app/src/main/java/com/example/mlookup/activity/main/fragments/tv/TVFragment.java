@@ -1,20 +1,21 @@
-package com.example.mlookup;
+package com.example.mlookup.activity.main.fragments.tv;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
+import com.example.mlookup.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TabFragment1#newInstance} factory method to
+ * Use the {@link TVFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TabFragment1 extends Fragment {
+public class TVFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +25,7 @@ public class TabFragment1 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TabFragment1() {
+    public TVFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +35,11 @@ public class TabFragment1 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TabFragment1.
+     * @return A new instance of fragment TabFragment2.
      */
     // TODO: Rename and change types and number of parameters
-    private static TabFragment1 newInstance(String param1, String param2) {
-        TabFragment1 fragment = new TabFragment1();
+    private static TVFragment newInstance(String param1, String param2) {
+        TVFragment fragment = new TVFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +60,6 @@ public class TabFragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab1, container, false);
+        return inflater.inflate(R.layout.tv_fragment, container, false);
     }
 }

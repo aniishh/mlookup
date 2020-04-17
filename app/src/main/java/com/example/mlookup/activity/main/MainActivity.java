@@ -1,16 +1,12 @@
-package com.example.mlookup;
+package com.example.mlookup.activity.main;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 import androidx.viewpager.widget.ViewPager;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.example.mlookup.R;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.Objects;
