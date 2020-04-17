@@ -2,14 +2,19 @@
     <string name="app_name">MLookup</string>
     <string name="splash_screen_content_description">Splash Screen</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_search">Search</string>
-    <string name="search_textview">Search For a Movie</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="btSearch_text">Search</string>
-    <string name="etSearchHint">Search For a Movie</string>
+    <string name="home">HOME</string>
+    <string name="tv">TV SERIES</string>
+    <string name="celebs">CELEBS</string>
+    <string name="movies">MOVIES</string>
+    <string name="trending">TRENDING</string>
+    <string name="people">PEOPLE</string>
+    <string name="recommendations">RECOMMENDATIONS</string>
+    <string name="search">Search</string>
     <string name="tmdb_api_key">api_key=f45effb7c585af88b1a7bc2daa65f344</string>
     <string name="tmdb_api_url">https://api.themoviedb.org/3/</string>
     <string name="tmdb_image_original">https://image.tmdb.org/t/p/original/</string>
     <string name="tmdb_image_w500">https://image.tmdb.org/t/p/w500/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
