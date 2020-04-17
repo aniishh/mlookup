@@ -1,4 +1,4 @@
-package com.example.mlookup;
+package com.example.mlookup.activity.splashscreen;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mlookup.R;
+import com.example.mlookup.activity.main.MainActivity;
 
 public class SplashScreen extends AppCompatActivity {
 

@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.main.MainActivity"
             android:label="@string/title_activity_main" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".activity.splashscreen.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
