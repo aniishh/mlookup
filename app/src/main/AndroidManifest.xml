@@ -12,7 +12,10 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.main.MainActivity"
-            android:label="@string/title_activity_main" />
+            android:label="@string/title_activity_main" >
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
         <activity
             android:name=".activity.splashscreen.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
