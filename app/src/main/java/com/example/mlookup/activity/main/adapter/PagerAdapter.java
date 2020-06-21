@@ -1,4 +1,4 @@
-package com.example.mlookup.activity.main;
+package com.example.mlookup.activity.main.adapter;
 
 import android.content.Context;
 
@@ -28,7 +28,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
      * @param fm       fragment manager that will interact with this adapter
      * @param behavior determines if only current fragments are in a resumed state
      */
-    PagerAdapter(@NonNull FragmentManager fm, int behavior, int numOfTabs, Context context) {
+    public PagerAdapter(@NonNull FragmentManager fm, int behavior, int numOfTabs, Context context) {
         super(fm, behavior);
         this.mNumOfTabs = numOfTabs;
         this.mContext = context;
